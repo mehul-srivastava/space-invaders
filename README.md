@@ -17,6 +17,12 @@ Additionally, the game features a leaderboard option in the game menu, allowing 
 When you're ready to play, choose the "Play Game" option and embark on an exciting adventure to defend Earth against the cosmic intruders. Good luck, and may your shooting skills bring glory and high scores!
 
 
+mehul: game mechanics and board rendering
+riyaz: real-time leaderboard and board rendering
+arya: random game events and enemy vector functionality
+ibrahim: menu screens and spaceship functionality
+andy: compiling everything and gluing features together
+
 
 LIST OF FEATURES IMPLEMENTED:
 
