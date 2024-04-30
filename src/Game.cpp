@@ -27,7 +27,7 @@ Game::Game(std::string name) {
   run(board, high_score, name, leaderboard);
 }
 
-void Game::run(Board* board, int high_score, std::string name, std::vector<Board::LeaderboardEntry> leaderboard) {
+int Game::run(Board* board, int high_score, std::string name, std::vector<Board::LeaderboardEntry> leaderboard) {
 
   int round = 0, cooldown_count = 0;
   int board_width = board->getTerminalWidth(), board_height = board->getTerminalHeight();
@@ -38,7 +38,7 @@ void Game::run(Board* board, int high_score, std::string name, std::vector<Board
   do {
     updateRound(round, board);
 
-    checkSpaceshipDeath(spaceship, board);
+    if(checkSpaceshipDeath(spaceship, board) == 1) return 1;
 
     checkSpaceshipPowerups(spaceship, round);
 
@@ -94,6 +94,8 @@ void Game::run(Board* board, int high_score, std::string name, std::vector<Board
         }
     }
   } while (true);
+
+  return 0;
 }
 
 
@@ -113,9 +115,10 @@ void Game::updateRound(int& round, Board* board) {
 }
 
 
-void Game::checkSpaceshipDeath(Spaceship* spaceship, Board* board) {
+int Game::checkSpaceshipDeath(Spaceship* spaceship, Board* board) {
   if (spaceship->getLives() < 1) {
     board->~Board();
+    return 1;
   } else {
     auto enemies = board->getObjects(ENEMY_REP);
     for (auto& enemy : enemies) {
@@ -125,6 +128,7 @@ void Game::checkSpaceshipDeath(Spaceship* spaceship, Board* board) {
         }
     }
   }
+  return 0;
 }
 
 

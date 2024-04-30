@@ -12,9 +12,9 @@
 class Game {
 public:
     Game(std::string name);// Constructor that takes a string parameter for the player's name
-    void run(Board* board, int high_score, std::string name, std::vector<Board::LeaderboardEntry> leaderboard);// Function to run the game
+    int run(Board* board, int high_score, std::string name, std::vector<Board::LeaderboardEntry> leaderboard);// Function to run the game
     void updateRound(int& round, Board* board);// Function to update the current round of the game
-    void checkSpaceshipDeath(Spaceship* spaceship, Board* board); // Function to check if the spaceship has been destroyed
+    int checkSpaceshipDeath(Spaceship* spaceship, Board* board); // Function to check if the spaceship has been destroyed
     void checkSpaceshipPowerups(Spaceship* spaceship, int round);// Function to check for spaceship power-ups based on the current round
     void checkLeaderboardAndUpdate(Board* board, int& high_score, std::vector<Board::LeaderboardEntry>& leaderboard, std::string name);// Function to check the leaderboard and update it if necessary
 };

@@ -96,6 +96,7 @@ int Menu::showAndChooseMenuOptions() {
           wclear(menu_window);
           wrefresh(menu_window);
           delwin(menu_window);
+          return 1;
         }
         break;
     }
@@ -168,46 +169,6 @@ void Menu::showRules(int yMax, int xMax) {
     wrefresh(rules_window);
     delwin(rules_window);
 }
-
-// void Menu::showLeaderboard(int yMax, int xMax) {
-//     int leaderboardWidth = 80; 
-//     int leaderboardHeight = 20;
-
-//     int menuHeight = 4;
-
-//     int leaderboardY = menuHeight - leaderboardHeight - 1;
-//     int leaderboardX = (xMax - leaderboardWidth) / 2;
-
-//     WINDOW* leaderboard_window = newwin(leaderboardHeight, leaderboardWidth, leaderboardY, leaderboardX);
-//     box(leaderboard_window, 0, 0);
-//     refresh();
-//     wrefresh(leaderboard_window);
-
-//     std::ifstream leaderboardFile("../leaderboard.txt");
-//     if (leaderboardFile.is_open()) {
-//         std::string line;
-//         int lineCount = 2;
-
-//         std::string leaderboardLine = "LEADERBOARD";
-//         mvwprintw(leaderboard_window, 1, (leaderboardWidth - leaderboardLine.length()) / 2, leaderboardLine.c_str());
-//         wrefresh(leaderboard_window);
-
-//         // Read the file line by line and display it in the leaderboard window
-//         while (std::getline(leaderboardFile, line) && lineCount <= leaderboardHeight - 2) {
-//             mvwprintw(leaderboard_window, lineCount, 1, line.c_str());
-//             lineCount++;
-//         }
-
-//         leaderboardFile.close();
-//     }
-
-//     wrefresh(leaderboard_window);
-
-//     getch();
-//     wclear(leaderboard_window);
-//     wrefresh(leaderboard_window);
-//     delwin(leaderboard_window);
-// }
 
 void Menu::showCredits(int yMax, int xMax) {
     std::vector<std::string> names = CONTRIBUTORS;
