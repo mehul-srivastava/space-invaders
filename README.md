@@ -61,3 +61,10 @@ Then use, W-A-S-D-P-ENTER keys to play the game!
 Github Repo: https://github.com/mehul-srivastava/Group-33-ENGG1340
 
 Video Link: https://drive.google.com/file/d/1NUYUgv-gXK-BDlmBTVJPHlngvatUYBBv/view?usp=sharing
+
+
+
+
+<br />
+NOTE: All elements work perfectly on the academy server except the spaceship which does not render at all
+<hr>
