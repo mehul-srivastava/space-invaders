@@ -164,7 +164,7 @@ void Board::render(vector<Board::LeaderboardEntry> &leaderboard, int round, int 
                case ')': case '[': case ']':
                case '>': case '/': case '\\':
                     wattron(window, COLOR_PAIR(COLOR_WHITE));
-                    mvwaddch(window, startY, startX, '>');
+                    mvwaddch(window, startY, startX, rep[c]);
                     wattroff(window, COLOR_PAIR(COLOR_WHITE));
                     break;
                 
