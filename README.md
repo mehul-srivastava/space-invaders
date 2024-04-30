@@ -1,6 +1,6 @@
 TEAM MEMBERS:  
 1.	Srivastava Mehul (3036184228)
-2.	Shoaib Ibrahim (3036223438)
+2.	Shoaib Ibrahim (3036223438).
 3.	Poon Tsz Hin (3036224626)
 4.	Rehman Riyaz Ur (3036181630)
 5.	Rajesh Arya (30361181800)
@@ -41,7 +41,7 @@ make
 
 
 LIST OF NON-STANDARD LIBRARIES:
-n-curses
+n-curses 
 
 VIDEO LINK: https://drive.google.com/file/d/1NUYUgv-gXK-BDlmBTVJPHlngvatUYBBv/view?usp=sharing
 
