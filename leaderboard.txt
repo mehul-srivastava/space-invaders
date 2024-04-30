@@ -1,13 +1,1 @@
-llava,72
-k,33
-mehul,26
-llll,16
-ll,12
-karaj,6
-ka,6
-karan,6
-hello,5
-kaustui,4
-riyaz,4
-jj,3
-p,2
+Mehul,10
