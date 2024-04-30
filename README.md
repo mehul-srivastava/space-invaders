@@ -5,6 +5,7 @@ TEAM MEMBERS:
 4.	Rehman Riyaz Ur (3036181630)
 5.	Rajesh Arya (30361181800)
 
+
 GAME DESCRIPTION:
 Cosmic Intruders is an exciting arcade-style game where your goal is to defend the Earth from waves of alien enemies. As a player, you control a powerful spaceship equipped with a laser cannon. Your mission is to shoot down as many alien invaders as possible before they overwhelm you.
 The game is high-score based, meaning there is no definitive end to the game. Your objective is to achieve the highest score possible by eliminating as many aliens as you can. Each alien you successfully shoot will change color and disappear, indicating damage and destruction.
