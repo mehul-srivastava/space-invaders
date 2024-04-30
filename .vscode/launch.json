@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/riyaz/Library/CloudStorage/OneDrive-TheUniversityofHongKong-Connect/Group-33-ENGG1340",
+      "program": "/Users/riyaz/Library/CloudStorage/OneDrive-TheUniversityofHongKong-Connect/Group-33-ENGG1340/build/Debug/outDebug"
+    }
+  ]
+}
