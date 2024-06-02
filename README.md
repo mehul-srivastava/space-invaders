@@ -58,7 +58,7 @@ Then use, W-A-S-D-P-ENTER keys to play the game!
 <br />
 
 ## Links
-Github Repo: https://github.com/mehul-srivastava/Group-33-ENGG1340
+Github Repo: [https://github.com/mehul-srivastava/Group-33-ENGG1340](https://github.com/mehul-srivastava/space-invaders)
 
 Video Link: https://drive.google.com/file/d/1NUYUgv-gXK-BDlmBTVJPHlngvatUYBBv/view?usp=sharing
 
