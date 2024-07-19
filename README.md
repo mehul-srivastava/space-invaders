@@ -1,3 +1,6 @@
+# Space Invaders
+![alt text](https://github.com/mehul-srivastava/space-invaders/blob/main/screen.gif?raw=true)
+
 ## Team Members
 1.	Srivastava Mehul (3036184228)
 2.	Shoaib Ibrahim (3036223438)
